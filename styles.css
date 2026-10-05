@@ -1,0 +1,60 @@
+html{scroll-behavior:smooth}
+body{margin:0;background:#FFF3F8;color:#2A0A1A;font-family:'Be Vietnam Pro',system-ui,sans-serif;font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased}
+*{box-sizing:border-box}
+a{color:#E0156F}
+a:hover{color:#B8105A}
+input::placeholder{color:#B58AA0}
+[hidden]{display:none!important}
+.ic{width:1em;height:1em;display:inline-block;flex:none}
+.err:empty{display:none}
+a:focus-visible,button:focus-visible{outline:3px solid #127E83;outline-offset:2px}
+.logo{height:72px;width:auto;display:block}
+.page{min-height:100vh}
+.mbar{display:none!important}
+.acc-panel{display:flex}
+.prize-grid,.format-grid{grid-template-columns:minmax(0,1fr)}
+button:disabled{cursor:wait}
+@media (max-width:759px){
+  .logo{height:52px}
+  .topnav{display:none!important}
+  .mbar{display:flex!important}
+  .page{padding-bottom:78px}
+}
+@media (min-width:820px){
+  .prize-grid{grid-template-columns:minmax(0,1.25fr) minmax(0,1fr)}
+  .format-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media (min-width:1000px){.form-card{grid-column:span 2}}
+@keyframes pbX{0%{left:6%}50%{left:calc(94% - 30px)}100%{left:6%}}
+@keyframes pbY{0%,50%,100%{transform:translateY(0);animation-timing-function:ease-out}25%,75%{transform:translateY(-78px);animation-timing-function:ease-in}}
+@keyframes pbY2{0%,50%,100%{transform:translateY(0);animation-timing-function:ease-out}25%,75%{transform:translateY(-40px);animation-timing-function:ease-in}}
+@keyframes pbFloat{0%,100%{transform:translate(0,0) rotate(0deg)}50%{transform:translate(14px,-28px) rotate(160deg)}}
+@keyframes pbFloat2{0%,100%{transform:translate(0,0) rotate(0deg)}50%{transform:translate(-18px,22px) rotate(-140deg)}}
+@keyframes pbSwing{0%,100%{transform:rotate(-7deg)}50%{transform:rotate(7deg)}}
+@keyframes pbFall{0%{top:-40px}100%{top:100%}}
+@keyframes pbWob{0%,100%{transform:translateX(0) rotate(0deg)}25%{transform:translateX(18px) rotate(240deg)}50%{transform:translateX(0) rotate(480deg)}75%{transform:translateX(-18px) rotate(720deg)}}
+@keyframes pbRoll{0%{left:-8%;transform:rotate(0deg)}100%{left:104%;transform:rotate(1080deg)}}
+@keyframes pbSpin{to{transform:rotate(360deg)}}
+@keyframes pbL{0%,100%{transform:rotate(-10deg)}4%{transform:rotate(34deg)}14%{transform:rotate(-10deg)}}
+@keyframes pbR{0%,44%{transform:rotate(10deg)}50%{transform:rotate(-34deg)}62%,100%{transform:rotate(10deg)}}
+@keyframes pbShadow{0%,50%,100%{transform:scaleX(1);opacity:.35}25%,75%{transform:scaleX(.45);opacity:.15}}
+@keyframes pbBob{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+@keyframes pbSwayL{0%,100%{transform:rotate(-30deg)}50%{transform:rotate(-24deg)}}
+@keyframes pbSwayR{0%,100%{transform:rotate(30deg)}50%{transform:rotate(24deg)}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+/* hover and focus states */
+.h1:hover{color:#E0156F !important}
+.h2:hover{color:#E0156F !important}
+.h3:hover{color:#E0156F !important}
+.h4:hover{color:#E0156F !important}
+.h5:hover{background:#C2105F !important;color:#fff !important}
+.h6:hover{background:#C2105F !important;color:#fff !important}
+.h7:hover{background:#FFF3F8 !important;color:#2A0A1A !important}
+.f8:focus{border-color:#E0156F !important;box-shadow:0 0 0 4px rgba(224,21,111,.15) !important}
+.f9:focus{border-color:#E0156F !important;box-shadow:0 0 0 4px rgba(224,21,111,.15) !important}
+.f10:focus{border-color:#E0156F !important;box-shadow:0 0 0 4px rgba(224,21,111,.15) !important}
+.f11:focus{border-color:#E0156F !important;box-shadow:0 0 0 4px rgba(224,21,111,.15) !important}
+.f12:focus{border-color:#E0156F !important;box-shadow:0 0 0 4px rgba(224,21,111,.15) !important}
+.f13:focus{border-color:#E0156F !important;box-shadow:0 0 0 4px rgba(224,21,111,.15) !important}
+.h14:hover{background:#C2105F !important}
+.h15:hover{background:#1A7BFF !important;color:#fff !important}
